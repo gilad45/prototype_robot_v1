@@ -1,0 +1,32 @@
+[0.701s] Invoking command in '/home/gilad/my_roboproto_ws/src/robot_nodes': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/gilad/my_roboproto_ws/src/build/robot_nodes/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gilad/my_roboproto_ws/src/install/robot_nodes/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/robot_nodes build --build-base /home/gilad/my_roboproto_ws/src/build/robot_nodes/build install --record /home/gilad/my_roboproto_ws/src/build/robot_nodes/install.log --single-version-externally-managed install_data
+[0.927s] running egg_info
+[0.927s] creating ../build/robot_nodes/robot_nodes.egg-info
+[0.943s] writing ../build/robot_nodes/robot_nodes.egg-info/PKG-INFO
+[0.943s] writing dependency_links to ../build/robot_nodes/robot_nodes.egg-info/dependency_links.txt
+[0.943s] writing requirements to ../build/robot_nodes/robot_nodes.egg-info/requires.txt
+[0.943s] writing top-level names to ../build/robot_nodes/robot_nodes.egg-info/top_level.txt
+[0.944s] writing manifest file '../build/robot_nodes/robot_nodes.egg-info/SOURCES.txt'
+[0.977s] reading manifest file '../build/robot_nodes/robot_nodes.egg-info/SOURCES.txt'
+[0.977s] writing manifest file '../build/robot_nodes/robot_nodes.egg-info/SOURCES.txt'
+[0.977s] running build
+[0.978s] running build_py
+[0.978s] creating /home/gilad/my_roboproto_ws/src/build/robot_nodes/build
+[0.978s] creating /home/gilad/my_roboproto_ws/src/build/robot_nodes/build/lib
+[0.978s] creating /home/gilad/my_roboproto_ws/src/build/robot_nodes/build/lib/robot_nodes
+[0.978s] copying robot_nodes/__init__.py -> /home/gilad/my_roboproto_ws/src/build/robot_nodes/build/lib/robot_nodes
+[0.978s] running install
+[0.984s] running install_lib
+[1.000s] creating /home/gilad/my_roboproto_ws/src/install/robot_nodes/lib/python3.12/site-packages/robot_nodes
+[1.001s] copying /home/gilad/my_roboproto_ws/src/build/robot_nodes/build/lib/robot_nodes/__init__.py -> /home/gilad/my_roboproto_ws/src/install/robot_nodes/lib/python3.12/site-packages/robot_nodes
+[1.001s] byte-compiling /home/gilad/my_roboproto_ws/src/install/robot_nodes/lib/python3.12/site-packages/robot_nodes/__init__.py to __init__.cpython-312.pyc
+[1.001s] running install_data
+[1.001s] creating /home/gilad/my_roboproto_ws/src/install/robot_nodes/share/ament_index
+[1.002s] creating /home/gilad/my_roboproto_ws/src/install/robot_nodes/share/ament_index/resource_index
+[1.002s] creating /home/gilad/my_roboproto_ws/src/install/robot_nodes/share/ament_index/resource_index/packages
+[1.002s] copying resource/robot_nodes -> /home/gilad/my_roboproto_ws/src/install/robot_nodes/share/ament_index/resource_index/packages
+[1.002s] copying package.xml -> /home/gilad/my_roboproto_ws/src/install/robot_nodes/share/robot_nodes
+[1.002s] running install_egg_info
+[1.019s] Copying ../build/robot_nodes/robot_nodes.egg-info to /home/gilad/my_roboproto_ws/src/install/robot_nodes/lib/python3.12/site-packages/robot_nodes-0.0.0-py3.12.egg-info
+[1.020s] running install_scripts
+[1.133s] writing list of installed files to '/home/gilad/my_roboproto_ws/src/build/robot_nodes/install.log'
+[1.170s] Invoked command in '/home/gilad/my_roboproto_ws/src/robot_nodes' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/gilad/my_roboproto_ws/src/build/robot_nodes/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gilad/my_roboproto_ws/src/install/robot_nodes/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/robot_nodes build --build-base /home/gilad/my_roboproto_ws/src/build/robot_nodes/build install --record /home/gilad/my_roboproto_ws/src/build/robot_nodes/install.log --single-version-externally-managed install_data
