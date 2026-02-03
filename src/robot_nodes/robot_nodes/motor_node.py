@@ -7,8 +7,8 @@ class Motor_node(Node):
     def __init__(self):
         super().__init__('motor_node')
     
-        self.right_motor = Motor(forward=24,backward=23, enable=18)
-        self.left_motor = Motor(forward=29,backward=31, enable=35)
+        self.right_motor = PhaseEnableMotor(phase=23, enable=18)
+        self.left_motor = PhaseEnableMotor(phase=31, enable=35)
 
         self.latest_command = False
 
