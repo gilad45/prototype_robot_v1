@@ -28,8 +28,9 @@ def main(args=None):
      except KeyboardInterrupt:
         distance_node.get_logger().info('node stopping...')
      finally:
-        distance_node.destroy_node()
-        rclpy.shutdown()
+        if rclpy.ok():
+            distance_node.destroy_node()
+            rclpy.shutdown()
 
 if __name__ == '__main__':
     main()

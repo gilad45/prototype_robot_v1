@@ -36,8 +36,9 @@ def main(args=None):
     except KeyboardInterrupt:
         motor_control.get_logger().info('Keyboard Interrupt (SIGINT) detected. Shutting down...')
     finally:
-        motor_control.destroy_node()
-        rclpy.shutdown()
+        if rclpy.ok():
+            motor_control.destroy_node()
+            rclpy.shutdown()
 
 if __name__ == '__main__':
     main()
