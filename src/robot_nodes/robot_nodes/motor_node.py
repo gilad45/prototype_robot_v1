@@ -22,7 +22,7 @@ class Motor_node(Node):
 
     def motor_control_loop(self):
         if self.latest_command == True:
-            self.right_motor.forward(1)
+            self.right_motor.backward(1)
             self.left_motor.backward(1)
         else:
             self.right_motor.stop()
