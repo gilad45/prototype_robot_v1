@@ -1,0 +1,46 @@
+[0.727s] Invoking command in '/home/gilad/my_roboproto_ws/src/robot_nodes': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/gilad/my_roboproto_ws/build/robot_nodes/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gilad/my_roboproto_ws/install/robot_nodes/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_nodes build --build-base /home/gilad/my_roboproto_ws/build/robot_nodes/build install --record /home/gilad/my_roboproto_ws/build/robot_nodes/install.log --single-version-externally-managed install_data
+[0.957s] running egg_info
+[0.957s] creating ../../build/robot_nodes/robot_nodes.egg-info
+[0.974s] writing ../../build/robot_nodes/robot_nodes.egg-info/PKG-INFO
+[0.974s] writing dependency_links to ../../build/robot_nodes/robot_nodes.egg-info/dependency_links.txt
+[0.974s] writing requirements to ../../build/robot_nodes/robot_nodes.egg-info/requires.txt
+[0.975s] writing top-level names to ../../build/robot_nodes/robot_nodes.egg-info/top_level.txt
+[0.975s] writing manifest file '../../build/robot_nodes/robot_nodes.egg-info/SOURCES.txt'
+[1.008s] reading manifest file '../../build/robot_nodes/robot_nodes.egg-info/SOURCES.txt'
+[1.009s] writing manifest file '../../build/robot_nodes/robot_nodes.egg-info/SOURCES.txt'
+[1.009s] running build
+[1.009s] running build_py
+[1.010s] creating /home/gilad/my_roboproto_ws/build/robot_nodes/build
+[1.010s] creating /home/gilad/my_roboproto_ws/build/robot_nodes/build/lib
+[1.010s] creating /home/gilad/my_roboproto_ws/build/robot_nodes/build/lib/robot_nodes
+[1.010s] copying robot_nodes/distance_sensor.py -> /home/gilad/my_roboproto_ws/build/robot_nodes/build/lib/robot_nodes
+[1.010s] copying robot_nodes/motor_node.py -> /home/gilad/my_roboproto_ws/build/robot_nodes/build/lib/robot_nodes
+[1.010s] copying robot_nodes/__init__.py -> /home/gilad/my_roboproto_ws/build/robot_nodes/build/lib/robot_nodes
+[1.010s] copying robot_nodes/state_machine.py -> /home/gilad/my_roboproto_ws/build/robot_nodes/build/lib/robot_nodes
+[1.010s] running install
+[1.016s] running install_lib
+[1.033s] creating /home/gilad/my_roboproto_ws/install/robot_nodes/lib/python3.12/site-packages/robot_nodes
+[1.033s] copying /home/gilad/my_roboproto_ws/build/robot_nodes/build/lib/robot_nodes/distance_sensor.py -> /home/gilad/my_roboproto_ws/install/robot_nodes/lib/python3.12/site-packages/robot_nodes
+[1.033s] copying /home/gilad/my_roboproto_ws/build/robot_nodes/build/lib/robot_nodes/motor_node.py -> /home/gilad/my_roboproto_ws/install/robot_nodes/lib/python3.12/site-packages/robot_nodes
+[1.033s] copying /home/gilad/my_roboproto_ws/build/robot_nodes/build/lib/robot_nodes/__init__.py -> /home/gilad/my_roboproto_ws/install/robot_nodes/lib/python3.12/site-packages/robot_nodes
+[1.033s] copying /home/gilad/my_roboproto_ws/build/robot_nodes/build/lib/robot_nodes/state_machine.py -> /home/gilad/my_roboproto_ws/install/robot_nodes/lib/python3.12/site-packages/robot_nodes
+[1.033s] byte-compiling /home/gilad/my_roboproto_ws/install/robot_nodes/lib/python3.12/site-packages/robot_nodes/distance_sensor.py to distance_sensor.cpython-312.pyc
+[1.034s] byte-compiling /home/gilad/my_roboproto_ws/install/robot_nodes/lib/python3.12/site-packages/robot_nodes/motor_node.py to motor_node.cpython-312.pyc
+[1.034s] byte-compiling /home/gilad/my_roboproto_ws/install/robot_nodes/lib/python3.12/site-packages/robot_nodes/__init__.py to __init__.cpython-312.pyc
+[1.035s] byte-compiling /home/gilad/my_roboproto_ws/install/robot_nodes/lib/python3.12/site-packages/robot_nodes/state_machine.py to state_machine.cpython-312.pyc
+[1.035s] running install_data
+[1.035s]   File "/home/gilad/my_roboproto_ws/install/robot_nodes/lib/python3.12/site-packages/robot_nodes/state_machine.py", line 24
+[1.035s]     def desicion_logic(self)
+[1.035s]                             ^
+[1.035s] SyntaxError: expected ':'
+[1.035s] 
+[1.035s] creating /home/gilad/my_roboproto_ws/install/robot_nodes/share/ament_index
+[1.035s] creating /home/gilad/my_roboproto_ws/install/robot_nodes/share/ament_index/resource_index
+[1.036s] creating /home/gilad/my_roboproto_ws/install/robot_nodes/share/ament_index/resource_index/packages
+[1.036s] copying resource/robot_nodes -> /home/gilad/my_roboproto_ws/install/robot_nodes/share/ament_index/resource_index/packages
+[1.036s] copying package.xml -> /home/gilad/my_roboproto_ws/install/robot_nodes/share/robot_nodes
+[1.036s] running install_egg_info
+[1.053s] Copying ../../build/robot_nodes/robot_nodes.egg-info to /home/gilad/my_roboproto_ws/install/robot_nodes/lib/python3.12/site-packages/robot_nodes-0.0.0-py3.12.egg-info
+[1.054s] running install_scripts
+[1.168s] writing list of installed files to '/home/gilad/my_roboproto_ws/build/robot_nodes/install.log'
+[1.204s] Invoked command in '/home/gilad/my_roboproto_ws/src/robot_nodes' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/gilad/my_roboproto_ws/build/robot_nodes/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gilad/my_roboproto_ws/install/robot_nodes/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_nodes build --build-base /home/gilad/my_roboproto_ws/build/robot_nodes/build install --record /home/gilad/my_roboproto_ws/build/robot_nodes/install.log --single-version-externally-managed install_data

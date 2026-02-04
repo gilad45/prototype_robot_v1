@@ -1,0 +1,14 @@
+motor_node:
+  ros__parameters:
+    max_speed: 1.5
+    wheel_radius: 0.033
+
+state_machine:
+  ros__parameters:
+    starting_mode: "idle"
+    debug_mode: true
+
+distance_sensor:
+  ros__parameters:
+    sensor_timeout: 0.5
+    trigger_pin: 18

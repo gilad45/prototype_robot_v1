@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: robot-bringup
+Version: 0.0.0
+Summary: Master launch files for the robot
+Maintainer: gilad
+Maintainer-email: giladberkove10@gmail.com
+License: TODO: License declaration
+Provides-Extra: test

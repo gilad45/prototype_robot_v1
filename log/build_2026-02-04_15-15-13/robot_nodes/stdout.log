@@ -1,0 +1,33 @@
+running develop
+Removing /home/gilad/my_roboproto_ws/install/robot_nodes/lib/python3.12/site-packages/robot-nodes.egg-link (link to .)
+running egg_info
+writing ../../build/robot_nodes/robot_nodes.egg-info/PKG-INFO
+writing dependency_links to ../../build/robot_nodes/robot_nodes.egg-info/dependency_links.txt
+writing entry points to ../../build/robot_nodes/robot_nodes.egg-info/entry_points.txt
+writing requirements to ../../build/robot_nodes/robot_nodes.egg-info/requires.txt
+writing top-level names to ../../build/robot_nodes/robot_nodes.egg-info/top_level.txt
+reading manifest file '../../build/robot_nodes/robot_nodes.egg-info/SOURCES.txt'
+writing manifest file '../../build/robot_nodes/robot_nodes.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+creating /home/gilad/my_roboproto_ws/install/robot_nodes/lib/python3.12/site-packages/robot_nodes
+copying /home/gilad/my_roboproto_ws/build/robot_nodes/build/lib/robot_nodes/distance_sensor.py -> /home/gilad/my_roboproto_ws/install/robot_nodes/lib/python3.12/site-packages/robot_nodes
+copying /home/gilad/my_roboproto_ws/build/robot_nodes/build/lib/robot_nodes/motor_node.py -> /home/gilad/my_roboproto_ws/install/robot_nodes/lib/python3.12/site-packages/robot_nodes
+copying /home/gilad/my_roboproto_ws/build/robot_nodes/build/lib/robot_nodes/__init__.py -> /home/gilad/my_roboproto_ws/install/robot_nodes/lib/python3.12/site-packages/robot_nodes
+copying /home/gilad/my_roboproto_ws/build/robot_nodes/build/lib/robot_nodes/state_machine.py -> /home/gilad/my_roboproto_ws/install/robot_nodes/lib/python3.12/site-packages/robot_nodes
+byte-compiling /home/gilad/my_roboproto_ws/install/robot_nodes/lib/python3.12/site-packages/robot_nodes/distance_sensor.py to distance_sensor.cpython-312.pyc
+byte-compiling /home/gilad/my_roboproto_ws/install/robot_nodes/lib/python3.12/site-packages/robot_nodes/motor_node.py to motor_node.cpython-312.pyc
+byte-compiling /home/gilad/my_roboproto_ws/install/robot_nodes/lib/python3.12/site-packages/robot_nodes/__init__.py to __init__.cpython-312.pyc
+byte-compiling /home/gilad/my_roboproto_ws/install/robot_nodes/lib/python3.12/site-packages/robot_nodes/state_machine.py to state_machine.cpython-312.pyc
+running install_data
+copying resource/robot_nodes -> /home/gilad/my_roboproto_ws/install/robot_nodes/share/ament_index/resource_index/packages
+copying package.xml -> /home/gilad/my_roboproto_ws/install/robot_nodes/share/robot_nodes
+running install_egg_info
+Copying ../../build/robot_nodes/robot_nodes.egg-info to /home/gilad/my_roboproto_ws/install/robot_nodes/lib/python3.12/site-packages/robot_nodes-0.0.0-py3.12.egg-info
+running install_scripts
+Installing distance_sensor script to /home/gilad/my_roboproto_ws/install/robot_nodes/lib/robot_nodes
+Installing motor_node script to /home/gilad/my_roboproto_ws/install/robot_nodes/lib/robot_nodes
+Installing state_machine script to /home/gilad/my_roboproto_ws/install/robot_nodes/lib/robot_nodes
+writing list of installed files to '/home/gilad/my_roboproto_ws/build/robot_nodes/install.log'

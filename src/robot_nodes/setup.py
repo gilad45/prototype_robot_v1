@@ -24,6 +24,9 @@ setup(
     },
     entry_points={
         'console_scripts': [
+            'motor_node = robot_nodes.motor_node:main',
+            'state_machine = robot_nodes.state_machine:main',
+            'distance_sensor = robot_nodes.distance_sensor:main',
         ],
     },
 )
