@@ -26,7 +26,7 @@ def main(args=None):
      try:
          rclpy.spin(distance_node)
      except KeyboardInterrupt:
-        distace_node.get_logger().info('node stopping...')
+        distance_node.get_logger().info('node stopping...')
      finally:
         distance_node.destroy_node()
         rclpy.shutdown()
