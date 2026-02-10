@@ -7,7 +7,7 @@ class DistanceSensorNode(Node):
     def __init__(self):
         super().__init__('distance_sensor_node')
 
-        self.sensor = DistanceSensor(echo=17, trigger=27)
+        self.sensor = DistanceSensor(echo=22, trigger=27)
 
         self.publisher_ = self.create_publisher(Float32, '/ultrasonic/distance', 10)
 
