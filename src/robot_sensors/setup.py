@@ -1,6 +1,6 @@
 from setuptools import find_packages, setup
 
-package_name = 'robot_nodes'
+package_name = 'robot_sensors'
 
 setup(
     name=package_name,
@@ -16,7 +16,7 @@ setup(
     maintainer='gilad',
     maintainer_email='giladberkove10@gmail.com',
     description='TODO: Package description',
-    license='TODO: License declaration',
+    license='Apache-2.0',
     extras_require={
         'test': [
             'pytest',
@@ -24,8 +24,7 @@ setup(
     },
     entry_points={
         'console_scripts': [
-            'motor_node = robot_nodes.motor_node:main',
-            'state_machine = robot_nodes.state_machine:main',
+            'distance_sensor = robot_nodes.distance_sensor:main',
         ],
     },
 )

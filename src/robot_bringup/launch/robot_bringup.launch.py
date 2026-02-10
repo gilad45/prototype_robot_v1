@@ -28,7 +28,7 @@ def generate_launch_description():
     )
 
     sensor_node = Node(
-        package='robot_nodes',
+        package='robot_sensors',
         executable='distance_sensor',
         name='distance_sensor',
         parameters=[config_file_path]
