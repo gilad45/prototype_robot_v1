@@ -1,0 +1,11 @@
+
+.vscode/
+.idea/
+
+install/
+build/
+log/
+
+
+__pycache__/
+*.pyc

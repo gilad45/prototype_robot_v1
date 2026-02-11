@@ -1,2 +1,0 @@
-[console_scripts]
-distance_sensor = robot_nodes.distance_sensor:main
