@@ -1,0 +1,22 @@
+[2.278s] Invoking command in '/home/gilad/my_roboproto_ws/src/robot_sensors': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/gilad/my_roboproto_ws/build/robot_sensors/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gilad/my_roboproto_ws/install/robot_sensors/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_sensors build --build-base /home/gilad/my_roboproto_ws/build/robot_sensors/build install --record /home/gilad/my_roboproto_ws/build/robot_sensors/install.log --single-version-externally-managed install_data
+[2.731s] running egg_info
+[2.763s] writing ../../build/robot_sensors/robot_sensors.egg-info/PKG-INFO
+[2.764s] writing dependency_links to ../../build/robot_sensors/robot_sensors.egg-info/dependency_links.txt
+[2.764s] writing entry points to ../../build/robot_sensors/robot_sensors.egg-info/entry_points.txt
+[2.764s] writing requirements to ../../build/robot_sensors/robot_sensors.egg-info/requires.txt
+[2.765s] writing top-level names to ../../build/robot_sensors/robot_sensors.egg-info/top_level.txt
+[2.831s] reading manifest file '../../build/robot_sensors/robot_sensors.egg-info/SOURCES.txt'
+[2.832s] adding license file 'LICENSE'
+[2.833s] writing manifest file '../../build/robot_sensors/robot_sensors.egg-info/SOURCES.txt'
+[2.833s] running build
+[2.833s] running build_py
+[2.833s] running install
+[2.844s] running install_lib
+[2.880s] running install_data
+[2.880s] running install_egg_info
+[2.916s] removing '/home/gilad/my_roboproto_ws/install/robot_sensors/lib/python3.12/site-packages/robot_sensors-0.0.0-py3.12.egg-info' (and everything under it)
+[2.916s] Copying ../../build/robot_sensors/robot_sensors.egg-info to /home/gilad/my_roboproto_ws/install/robot_sensors/lib/python3.12/site-packages/robot_sensors-0.0.0-py3.12.egg-info
+[2.918s] running install_scripts
+[3.149s] Installing distance_sensor script to /home/gilad/my_roboproto_ws/install/robot_sensors/lib/robot_sensors
+[3.149s] writing list of installed files to '/home/gilad/my_roboproto_ws/build/robot_sensors/install.log'
+[3.208s] Invoked command in '/home/gilad/my_roboproto_ws/src/robot_sensors' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/gilad/my_roboproto_ws/build/robot_sensors/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gilad/my_roboproto_ws/install/robot_sensors/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_sensors build --build-base /home/gilad/my_roboproto_ws/build/robot_sensors/build install --record /home/gilad/my_roboproto_ws/build/robot_sensors/install.log --single-version-externally-managed install_data

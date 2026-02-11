@@ -1,8 +1,6 @@
-/home/gilad/my_roboproto_ws/install/robot_nodes/lib/python3.12/site-packages/robot_nodes/distance_sensor.py
 /home/gilad/my_roboproto_ws/install/robot_nodes/lib/python3.12/site-packages/robot_nodes/motor_node.py
 /home/gilad/my_roboproto_ws/install/robot_nodes/lib/python3.12/site-packages/robot_nodes/__init__.py
 /home/gilad/my_roboproto_ws/install/robot_nodes/lib/python3.12/site-packages/robot_nodes/state_machine.py
-/home/gilad/my_roboproto_ws/install/robot_nodes/lib/python3.12/site-packages/robot_nodes/__pycache__/distance_sensor.cpython-312.pyc
 /home/gilad/my_roboproto_ws/install/robot_nodes/lib/python3.12/site-packages/robot_nodes/__pycache__/motor_node.cpython-312.pyc
 /home/gilad/my_roboproto_ws/install/robot_nodes/lib/python3.12/site-packages/robot_nodes/__pycache__/__init__.cpython-312.pyc
 /home/gilad/my_roboproto_ws/install/robot_nodes/lib/python3.12/site-packages/robot_nodes/__pycache__/state_machine.cpython-312.pyc
@@ -15,6 +13,5 @@
 /home/gilad/my_roboproto_ws/install/robot_nodes/lib/python3.12/site-packages/robot_nodes-0.0.0-py3.12.egg-info/SOURCES.txt
 /home/gilad/my_roboproto_ws/install/robot_nodes/lib/python3.12/site-packages/robot_nodes-0.0.0-py3.12.egg-info/requires.txt
 /home/gilad/my_roboproto_ws/install/robot_nodes/lib/python3.12/site-packages/robot_nodes-0.0.0-py3.12.egg-info/zip-safe
-/home/gilad/my_roboproto_ws/install/robot_nodes/lib/robot_nodes/distance_sensor
 /home/gilad/my_roboproto_ws/install/robot_nodes/lib/robot_nodes/motor_node
 /home/gilad/my_roboproto_ws/install/robot_nodes/lib/robot_nodes/state_machine

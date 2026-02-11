@@ -9,7 +9,7 @@ class Motor_node(Node):
         super().__init__('motor_node')
     
         self.right_motor = PhaseEnableMotor(phase=23, enable=18)
-        self.left_motor = PhaseEnableMotor(phase=31, enable=35)
+        self.left_motor = PhaseEnableMotor(phase=6, enable=19)
 
         self.latest_command = False
 
@@ -22,8 +22,8 @@ class Motor_node(Node):
 
     def motor_control_loop(self):
         if self.latest_command == True:
-            self.right_motor.forward(1)
-            self.left_motor.forward(1)
+            self.right_motor.backward(1)
+            self.left_motor.backward(1)
         else:
             self.right_motor.stop()
             self.left_motor.stop()
@@ -34,10 +34,12 @@ def main(args=None):
     try:
         rclpy.spin(motor_control)
     except KeyboardInterrupt:
-        motor_control.get_logger().info('Keyboard Interrupt (SIGINT) detected. Shutting down...')
+        if rclpy.ok():
+            motor_control.get_logger().info('Keyboard Interrupt (SIGINT) detected. Shutting down...')
     finally:
-        motor_control.destroy_node()
-        rclpy.shutdown()
+        if rclpy.ok():
+            motor_control.destroy_node()
+            rclpy.shutdown()
 
 if __name__ == '__main__':
     main()
